@@ -14,18 +14,21 @@
                         <ColumnDefinition Width="29*"/>
                         <ColumnDefinition Width="37*"/>
                     </Grid.ColumnDefinitions>
-                    <Button Content="Convert" HorizontalAlignment="Left" Margin="317,18,0,0" VerticalAlignment="Top" Width="75" Grid.Column="1" Click="Button_Click"/>
-                    <TextBox x:Name="from" HorizontalAlignment="Left" Height="20" Margin="49,18,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-                    <TextBox HorizontalAlignment="Left" Height="20" Margin="331,18,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2"/>
-                    <TextBlock HorizontalAlignment="Left" Margin="84,51,0,0" TextWrapping="Wrap" Text="From" VerticalAlignment="Top" RenderTransformOrigin="-0.287,-0.008"/>
+                    <Button Content="Convert" HorizontalAlignment="Left" Margin="170,113,0,0" VerticalAlignment="Top" Width="75" Grid.Column="1" Click="Button_Click"/>
+                    <TextBox x:Name="Input" HorizontalAlignment="Left" Height="20" Margin="34,111,0,0" TextWrapping="Wrap" Text="Input" VerticalAlignment="Top" Width="120" TextChanged="from_TextChanged"/>
+                    <TextBox HorizontalAlignment="Left" Height="20" Margin="250,113,0,0" TextWrapping="Wrap" Text="Results" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="159,111,0,0" TextWrapping="Wrap" Text="degrees" VerticalAlignment="Top" RenderTransformOrigin="-0.287,-0.008"/>
                     <TextBlock HorizontalAlignment="Left" Margin="8,51,0,0" TextWrapping="Wrap" Text="Converted" VerticalAlignment="Top" RenderTransformOrigin="-0.287,-0.008" Grid.Column="1"/>
-                    <ComboBox x:Name="unit_chooser" HorizontalAlignment="Left" Margin="331,149,0,0" VerticalAlignment="Top" Width="200" Grid.ColumnSpan="2">
-                        <ComboBoxItem Content="Celsius -> Fahrenheit"></ComboBoxItem>
-                        <ComboBoxItem Content="Fahrenheit -> Celsius"></ComboBoxItem>
-                        <ComboBoxItem Content="Celsius -> Kelvin"></ComboBoxItem>
-                        <ComboBoxItem Content="Kelvin -> Celsius"></ComboBoxItem>
-                        <ComboBoxItem Content="Fahrenheit -> Kelvin"></ComboBoxItem>
-                        <ComboBoxItem Content="Kelvin -> Fahrenheit"></ComboBoxItem>
+                    <TextBlock HorizontalAlignment="Left" Margin="311,112,0,0" TextWrapping="Wrap" Text="to" VerticalAlignment="Top" RenderTransformOrigin="-0.287,-0.008"/>
+                    <ComboBox x:Name="from_unit" HorizontalAlignment="Left" Margin="206,111,0,0" VerticalAlignment="Top" Width="100" Height="20">
+                        <ComboBoxItem Content="Celsius"></ComboBoxItem>
+                        <ComboBoxItem Content="Fahrenheit"></ComboBoxItem>
+                        <ComboBoxItem Content="Kelvin"></ComboBoxItem>
+                    </ComboBox>
+                    <ComboBox x:Name="to_unit" HorizontalAlignment="Left" Margin="327,112,0,0" VerticalAlignment="Top" Width="100" Height="19" Grid.ColumnSpan="2">
+                        <ComboBoxItem Content="Celsius"></ComboBoxItem>
+                        <ComboBoxItem Content="Fahrenheit"></ComboBoxItem>
+                        <ComboBoxItem Content="Kelvin"></ComboBoxItem>
                     </ComboBox>
                 </Grid>
             </TabItem>

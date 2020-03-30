@@ -49,44 +49,64 @@ class Converter(value, start, end):
 
 namespace Zadanie1
 {
-    public class GenericConverter(int value, list start_unit, list end_unit) {
+    class TemperatureConverter
+    {
+        public float FarenheitToCelcius(float start)
+        {
+            Console.WriteLine("getting somewhere " + start);
+            float end = (start - 32) / 1.8F;
+            return end;
+        }
+        public float CelsiusToFarenheit(float start)
+        {
+            float end = start * 1.8F + 32;
+            return end;
+        }
+        private float CelsiusToKelvin(float start)
+        {
+            float end = start + 273.15F;
+            return end;
+        }
+        private float KelvinToCelcius(float start)
+        {
+            float end = start - 273.15F;
+            return end;
+        }
+        private float FahrenheitToKelvin(float start)
+        {
+            float end = (start + 459.67F) * (5 / 9);
+            return end;
+        }
+        private float KelvinToFarenheit(float start)
+        {
+            return (start * (9 / 5)) - 459.67F;
+        }
+    }
+    /*
+    public class Converter {
+        static void Main(string[] args)
+        {
+            // valid temperature units of conversion
+            IList<String> temperature_units = new List<String> { "F", "C", "K" };
 
-        public float ConvertTemperature(value, start_unit, end_unit) {
-        if (this.start_unit = "F" and this.end_unit = "C"){ this.FahrenheitToCelcius(value) };
-        if (this.start_unit = "C" and this.end_unit = "F"){ this.CelsiusToFarenheit(value) };
-        if (this.start_unit = "C" and this.end_unit = "K"){ this.CelsiusToKelvin(value) };
-        if (this.start_unit = "K" and this.end_unit = "C"){ this.KelvinToCelsius(value) };
-        if (this.start_unit = "F" and this.end_unit = "K"){ this.FahrenheitToKelvin(value)};
-        if (this.start_unit = "K" and this.end_unit = "F"){ this.KelvinToFahrenheit(value)};
+            // new converter instance
+            TemperatureConverter converter = new TemperatureConverter();
+
+            converter.FarenheitToCelcius(123);
+        }
     }
-        private float FahrenheitToCelcius(float start)
-    {
-        float end = (start - 32) / 1.8F;
-        return end;
+   */
+}
+/*
+        public float ConvertTemperature(int value, List<String> start_unit, List<String> end_unit) {
+        if (string.Compare(this.start_unit,"F") and (end_unit = "C"); { this.FahrenheitToCelcius(value) };
+        if (start_unit = "C") and (end_unit = "F"); { this.CelsiusToFarenheit(value) };
+        if (start_unit = "C") and (end_unit = "K"); { this.CelsiusToKelvin(value) };
+        if (start_unit = "K") and (end_unit = "C"); { this.KelvinToCelsius(value) };
+        if (start_unit = "F") and (end_unit = "K"); { this.FahrenheitToKelvin(value)};
+        if (start_unit = "K") and (end_unit = "F"); { this.KelvinToFahrenheit(value)};
     }
-    private float CelsiusToFarenheit(float start)
-    {
-        float end = start * 1.8F + 32;
-        return end;
-    }
-    private float CelsiusToKelvin(float start)
-    {
-        float end = start + 273.15F;
-        return end;
-    }
-    private float KelvinToCelcius(float start)
-    {
-        float end = start - 273.15F;
-        return end;
-    }
-    private float FahrenheitToKelvin(float start)
-    {
-        float end = (start + 459.67F) * (5 / 9);
-        return end;
-    }
-    private float KelvinToFarenheit(float start) {
-        return (start * (9 / 5)) - 459.67F;
-    }
+
 
     class converter
     {
@@ -122,3 +142,4 @@ namespace Zadanie1
         }
     }
 }
+*/

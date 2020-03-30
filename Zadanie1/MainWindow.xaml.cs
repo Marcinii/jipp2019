@@ -63,7 +63,12 @@ namespace Zadanie1
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            float f = 
+            int i = 1;
+        }
+
+        private void from_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }
