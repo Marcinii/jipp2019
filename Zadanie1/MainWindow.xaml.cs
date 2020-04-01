@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Diagnostics;
 using System.Windows.Controls.Primitives;
+using System.Data;
 using System.Data.SqlClient;
 
 
@@ -60,96 +61,113 @@ namespace Zadanie1
     
     public partial class MainWindow : Window
     {
+        SqlConnection sql;
+        string insert_query = "INSERT INTO stats " +
+            "(timestamp, from_unit, to_unit, before, after) " +
+            "VALUES (@timestamp, @from_unit, @to_unit, @before, @after) ";
         public MainWindow()
         {
             InitializeComponent();
-            SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder;
-            builder.DataSource = '(local)\MSSQLLocalDB';
+            SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder();
+            builder.DataSource = "(localdb)\\MSSQLLocalDB";
             builder.UserID = "testuser";
             builder.Password = "test123";
             builder.InitialCatalog = "Przelicznik";
+            sql = new SqlConnection(builder.ConnectionString);
+            sql.Open();
         }
 
-        float from;
-        float end;
-        private void Button_Click(object sender, RoutedEventArgs e)
+        double from;
+        double end;
+        private void Button_Click_temp(object sender, RoutedEventArgs e)
         {
-            from = float.Parse(Frombox.Text);
+            from = double.Parse(Frombox.Text);
             //if (from_unit.SelectedIndex.Equals(0) && to_unit.SelectedIndex.Equals(1))
             //{
-            //    float end = TemperatureConverter.CelsiusToFarenheit(from);
+            //    double end = TemperatureConverter.CelsiusToFarenheit(from);
             //    ResultBox.Text = end.ToString();
             //}
             //else if (from_unit.SelectedIndex.Equals(1) && to_unit.SelectedIndex.Equals(0))
             //{
-            //    float end = TemperatureConverter.FarenheitToCelcius(from);
+            //    double end = TemperatureConverter.FarenheitToCelcius(from);
             //    ResultBox.Text = end.ToString();
             //}
             //else if (from_unit.SelectedIndex.Equals(0) && to_unit.SelectedIndex.Equals(2))
             //{
-            //    float end = TemperatureConverter.CelsiusToKelvin(from);
+            //    double end = TemperatureConverter.CelsiusToKelvin(from);
             //    ResultBox.Text = end.ToString();
             //}
             //else if (from_unit.SelectedIndex.Equals(1) && to_unit.SelectedIndex.Equals(2))
             //{
-            //    float end = TemperatureConverter.FahrenheitToKelvin(from);
+            //    double end = TemperatureConverter.FahrenheitToKelvin(from);
             //    ResultBox.Text = end.ToString();
             //}
             //else if (from_unit.SelectedIndex.Equals(2) && to_unit.SelectedIndex.Equals(0))
             //{
-            //    float end = TemperatureConverter.KelvinToCelcius(from);
+            //    double end = TemperatureConverter.KelvinToCelcius(from);
             //    ResultBox.Text = end.ToString();
             //}
             //else if (from_unit.SelectedIndex.Equals(2) && to_unit.SelectedIndex.Equals(1))
             //{
-            //    float end = TemperatureConverter.KelvinToFarenheit(from);
+            //    double end = TemperatureConverter.KelvinToFarenheit(from);
             //    ResultBox.Text = end.ToString();
             //}
             int back = from_unit.SelectedIndex;
             int to = to_unit.SelectedIndex;
-            switch(back)
-            {
-                case 0 when to == 1:
-                    end = TemperatureConverter.CelsiusToFarenheit(from);
-                    break;
-                case 0 when to == 2:
-                    end = TemperatureConverter.CelsiusToKelvin(from);
+            SqlCommand cmd = new SqlCommand(insert_query, sql);
+            switch (back)
+                {
+                    case 0 when to == 1:
+                        end = TemperatureConverter.CelsiusToFarenheit(from);
+                    cmd.Parameters.Add("@from_unit", SqlDbType.VarChar).Value = "Celsius";
+                    cmd.Parameters.Add("@to_unit", SqlDbType.VarChar).Value = "Fahrenheit";
+                        break;
+                    case 0 when to == 2:
+                        end = TemperatureConverter.CelsiusToKelvin(from);
+                    cmd.Parameters.Add("@from_unit", SqlDbType.VarChar).Value = "Celsius";
+                    cmd.Parameters.Add("@to_unit", SqlDbType.VarChar).Value = "Kelvin";
+                        break;
+
+                    case 1 when to == 0:
+                        end = TemperatureConverter.FarenheitToCelcius(from);
+                    cmd.Parameters.Add("@to_unit", SqlDbType.VarChar).Value = "Celsius";
+                    cmd.Parameters.Add("@from_unit", SqlDbType.VarChar).Value = "Fahrenheit";
+
                     break;
 
-                case 1 when to == 0:
-                    end = TemperatureConverter.FarenheitToCelcius(from);
-                    break;
+                    case 1 when to == 2:
+                        end = TemperatureConverter.FahrenheitToKelvin(from);
+                    cmd.Parameters.Add("@from_unit", SqlDbType.VarChar).Value = "Fahrenheit";
+                    cmd.Parameters.Add("@to_unit", SqlDbType.VarChar).Value = "Kelvin";
 
-                case 1 when to == 2:
-                    end = TemperatureConverter.FahrenheitToKelvin(from);
                     break;
-                case 2 when to == 0:
-                    end = TemperatureConverter.KelvinToCelcius(from);
+                    case 2 when to == 0:
+                        end = TemperatureConverter.KelvinToCelcius(from);
+                    cmd.Parameters.Add("@from_unit", SqlDbType.VarChar).Value = "Kelvin";
+                    cmd.Parameters.Add("@to_unit", SqlDbType.VarChar).Value = "Celsius";
+
                     break;
-                case 2 when to == 1:
-                    end = TemperatureConverter.KelvinToFarenheit(from);
+                    case 2 when to == 1:
+                        end = TemperatureConverter.KelvinToFarenheit(from);
+                    cmd.Parameters.Add("@from_unit", SqlDbType.VarChar).Value = "Kelvin";
+                    cmd.Parameters.Add("@to_unit", SqlDbType.VarChar).Value = "Fahrenheit";
                     break;
-                default:
-                    ResultBox.Text = from.ToString();
-                    break;
-            }
+                    default:
+                        ResultBox.Text = from.ToString();
+                        break;
+                }
+            ResultBox.IsEnabled = true;
+            ResultBox.Clear();
             ResultBox.Text = end.ToString();
-
-        }
-
-        private void from_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
-        }
-
-        private void Frombox_DragOver(object sender, DragEventArgs e)
-        {
-
-        }
+            cmd.Parameters.Add("@timestamp", SqlDbType.DateTime).Value = DateTime.Now;
+            cmd.Parameters.Add("@before", SqlDbType.Real).Value = from;
+            cmd.Parameters.Add("@after", SqlDbType.Real).Value = end;
+            cmd.ExecuteNonQuery();
+            }
 
         private void Fromboxlength_GotKeyboardFocus(object sender, KeyboardFocusChangedEventArgs e)
         {
-            Fromboxlength.Text = "";
+            Fromboxlength.Clear();
         }
 
         private void Fromboxlength_LostKeyboardFocus(object sender, KeyboardFocusChangedEventArgs e)
@@ -157,5 +175,116 @@ namespace Zadanie1
             Fromboxlength.Text = "Input";
         }
 
+        private void MassButton_Click(object sender, RoutedEventArgs e)
+        {
+            double from = double.Parse(Fromboxmass.Text);
+            int back = from_unit_mass.SelectedIndex;
+            int to = to_unit_mass.SelectedIndex;
+            switch (back)
+            {
+                case 1 when to == 1:
+                    end = from;
+                    break;
+                case 1 when to == 2:
+                    end = MassConverter.KgToLb(from);
+                    break;
+                case 1 when to == 3:
+                    end = MassConverter.KgToCarat(from);
+                    break;
+                case 2 when to == 1:
+                    end = MassConverter.LbToKg(from);
+                    break;
+                case 2 when to == 2:
+                    end = from;
+                    break;
+                case 2 when to == 3:
+                    end = MassConverter.LbToCarat(from);
+                    break;
+                case 3 when to == 1:
+                    end = MassConverter.CaratToKg(from);
+                    break;
+                case 3 when to == 2:
+                    end = MassConverter.CaratToLb(from);
+                    break;
+                case 3 when to == 3:
+                    end = from;
+                    break;
+            }
+            ResultBoxmass.IsEnabled = true;
+            ResultBoxmass.Clear();
+            ResultBoxmass.Text = end.ToString();
+        }
+
+        private void Button_Click_len(object sender, RoutedEventArgs e)
+        {
+            from = double.Parse(Fromboxlength.Text);
+            int back = from_unit_len.SelectedIndex;
+            int to = to_unit_len.SelectedIndex;
+            switch (back)
+            {
+                case 1 when to == 1:
+                    end = from;
+                    break;
+                case 1 when to == 2:
+                    end = LenConverter.KmToMi(from);
+                    break;
+                case 1 when to == 3:
+                    end = LenConverter.KmToNat(from);
+                    break;
+                case 2 when to == 1:
+                    end = LenConverter.MiToKm(from);
+                    break;
+                case 2 when to == 2:
+                    end = from;
+                    break;
+                case 2 when to == 3:
+                    end = LenConverter.MiToNat(from);
+                    break;
+                case 3 when to == 1:
+                    end = LenConverter.NatToKm(from);
+                    break;
+                case 3 when to == 2:
+                    end = LenConverter.NatToMi(from);
+                    break;
+                case 3 when to == 3:
+                    end = from;
+                    break;
+            }
+            ResultBoxlength.IsEnabled = true;
+            ResultBoxlength.Clear();
+            ResultBoxlength.Text = end.ToString();
+        }
+
+        private void Fromboxmass_GotKeyboardFocus(object sender, KeyboardFocusChangedEventArgs e)
+        {
+            Fromboxmass.Clear();
+        }
+
+        private void Frombox_GotKeyboardFocus(object sender, KeyboardFocusChangedEventArgs e)
+        {
+            Frombox.Clear();
+        }
+
+        private void Frombox_LostKeyboardFocus(object sender, KeyboardFocusChangedEventArgs e)
+        {
+            Frombox.Text = "Input";
+        }
+
+        private void Fromboxmass_LostKeyboardFocus(object sender, KeyboardFocusChangedEventArgs e)
+        {
+            Frombox.Text = "Input";
+        }
+
+        private void SQLButton_Click(object sender, RoutedEventArgs e)
+        {
+            string CmdString = "SELECT * FROM stats";
+            SqlCommand cmd = new SqlCommand(CmdString, sql);
+            SqlDataAdapter sda = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable("Stats");
+            sda.Fill(dt);
+            SQLGrid.ItemsSource = dt.DefaultView;
+            
+        }
     }
 }
+

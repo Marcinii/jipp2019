@@ -52,35 +52,89 @@ namespace Zadanie1
 {
     class TemperatureConverter
     {
-        public static float FarenheitToCelcius(float start)
+        public static double FarenheitToCelcius(double start)
         {
             Console.WriteLine("getting somewhere " + start);
-            float end = (start - 32) / 1.8F;
+            double end = (start - 32) / 1.8;
             return end;
         }
-        public static float CelsiusToFarenheit(float start)
+        public static double CelsiusToFarenheit(double start)
         {
-            float end = start * 1.8F + 32;
+            double end = start * 1.8F + 32;
             return end;
         }
-        public static float CelsiusToKelvin(float start)
+        public static double CelsiusToKelvin(double start)
         {
-            float end = start + 273.15F;
+            double end = start + 273.15;
             return end;
         }
-        public static float KelvinToCelcius(float start)
+        public static double KelvinToCelcius(double start)
         {
-            float end = start - 273.15F;
+            double end = start - 273.15;
             return end;
         }
-        public static float FahrenheitToKelvin(float start)
+        public static double FahrenheitToKelvin(double start)
         {
-            float end = (start + 459.67F) * (5.00F/9.00F);
+            double end = (start + 459.67) * (5.00/9.00);
             return end;
         }
-        public static float KelvinToFarenheit(float start)
+        public static double KelvinToFarenheit(double start)
         {
-            return (start * (9 / 5)) - 459.67F;
+            return (start * (9 / 5)) - 459.67;
+        }
+    }
+    class MassConverter
+    {
+        public static double KgToLb(double start)
+        {
+            return start * 2.2046;
+        }
+        public static double KgToCarat(double start)
+        {
+            return start / 5000;
+        }
+        public static double LbToKg(double start)
+        {
+            return start * 0.45359237;
+        }
+        public static double LbToCarat(double start)
+        {
+            return start / 2267.96185;
+        }
+        public static double CaratToKg(double start)
+        {
+            return start * 0.0002;
+        }
+        public static double CaratToLb(double start)
+        {
+            return start * 0.00053584577614;
+        }
+    }
+    class LenConverter
+    {
+        public static double KmToMi(double start)
+        {
+            return start * 0.621371192;
+        }
+        public static double KmToNat(double start)
+        {
+            return start * 0.539956803;
+        }
+        public static double MiToKm(double start)
+        {
+            return start * 1.609344;
+        }
+        public static double MiToNat(double start)
+        {
+            return start * 0.868976242;
+        }
+        public static double NatToKm(double start)
+        {
+            return start * 1.85200;
+        }
+        public static double NatToMi(double start)
+        {
+            return start * 1.15077945;
         }
     }
     /*
@@ -99,7 +153,7 @@ namespace Zadanie1
    */
 }
 /*
-        public float ConvertTemperature(int value, List<String> start_unit, List<String> end_unit) {
+        public double ConvertTemperature(int value, List<String> start_unit, List<String> end_unit) {
         if (string.Compare(this.start_unit,"F") and (end_unit = "C"); { this.FahrenheitToCelcius(value) };
         if (start_unit = "C") and (end_unit = "F"); { this.CelsiusToFarenheit(value) };
         if (start_unit = "C") and (end_unit = "K"); { this.CelsiusToKelvin(value) };
@@ -111,34 +165,34 @@ namespace Zadanie1
 
     class converter
     {
-        public float FahrenheitToCelcius (float start)
+        public double FahrenheitToCelcius (double start)
         {
-            float end = (start - 32) / 1.8F;
+            double end = (start - 32) / 1.8F;
             return end;
         }
-        public float CelsiusToFarenheit (float start)
+        public double CelsiusToFarenheit (double start)
         {
-            float end = start * 1.8F + 32;
+            double end = start * 1.8F + 32;
             return end;
         }
-        public float CelsiusToKelvin (float start)
+        public double CelsiusToKelvin (double start)
         {
-            float end = start + 273.15F;
+            double end = start + 273.15F;
             return end;
         }
-        public float KelvinToCelcius (float start)
+        public double KelvinToCelcius (double start)
         {
-            float end = start - 273.15F;
+            double end = start - 273.15F;
             return end;
         }
-        public float FahrenheitToKelvin (float start)
+        public double FahrenheitToKelvin (double start)
         {
-            float end = (start + 459.67F) * (5 / 9);
+            double end = (start + 459.67F) * (5 / 9);
             return end;
         }
-        public float KelvinToFarenheit (float start)
+        public double KelvinToFarenheit (double start)
         {
-            float end = (start * (9 / 5)) - 459.67F;
+            double end = (start * (9 / 5)) - 459.67F;
             return end;
         }
     }
