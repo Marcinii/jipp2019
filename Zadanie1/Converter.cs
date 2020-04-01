@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Diagnostics;
 
 /* 
 1. Convert freely between:
@@ -51,33 +52,33 @@ namespace Zadanie1
 {
     class TemperatureConverter
     {
-        public float FarenheitToCelcius(float start)
+        public static float FarenheitToCelcius(float start)
         {
             Console.WriteLine("getting somewhere " + start);
             float end = (start - 32) / 1.8F;
             return end;
         }
-        public float CelsiusToFarenheit(float start)
+        public static float CelsiusToFarenheit(float start)
         {
             float end = start * 1.8F + 32;
             return end;
         }
-        private float CelsiusToKelvin(float start)
+        public static float CelsiusToKelvin(float start)
         {
             float end = start + 273.15F;
             return end;
         }
-        private float KelvinToCelcius(float start)
+        public static float KelvinToCelcius(float start)
         {
             float end = start - 273.15F;
             return end;
         }
-        private float FahrenheitToKelvin(float start)
+        public static float FahrenheitToKelvin(float start)
         {
-            float end = (start + 459.67F) * (5 / 9);
+            float end = (start + 459.67F) * (5.00F/9.00F);
             return end;
         }
-        private float KelvinToFarenheit(float start)
+        public static float KelvinToFarenheit(float start)
         {
             return (start * (9 / 5)) - 459.67F;
         }
