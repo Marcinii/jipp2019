@@ -1,0 +1,22 @@
+C:\Users\V-30\Desktop\zal\UnitConv.SDK\bin\Debug\Converter.SDK.dll
+C:\Users\V-30\Desktop\zal\UnitConv.SDK\bin\Debug\Converter.SDK.pdb
+C:\Users\V-30\Desktop\zal\UnitConv.SDK\obj\Debug\Konwerter.SDK.csproj.CoreCompileInputs.cache
+C:\Users\V-30\Desktop\zal\UnitConv.SDK\obj\Debug\Converter.SDK.dll
+C:\Users\V-30\Desktop\zal\UnitConv.SDK\obj\Debug\Converter.SDK.pdb
+C:\Users\V-30\Desktop\Nowy folder\zal\UnitConv.SDK\bin\Debug\Konwerter.SDK.dll
+C:\Users\V-30\Desktop\Nowy folder\zal\UnitConv.SDK\bin\Debug\Konwerter.SDK.pdb
+C:\Users\V-30\Desktop\Nowy folder\zal\UnitConv.SDK\obj\Debug\Konwerter.SDK.csprojAssemblyReference.cache
+C:\Users\V-30\Desktop\Nowy folder\zal\UnitConv.SDK\obj\Debug\Konwerter.SDK.csproj.CoreCompileInputs.cache
+C:\Users\V-30\Desktop\Nowy folder\zal\UnitConv.SDK\obj\Debug\Konwerter.SDK.dll
+C:\Users\V-30\Desktop\Nowy folder\zal\UnitConv.SDK\obj\Debug\Konwerter.SDK.pdb
+C:\Users\V-30\Desktop\Nowy folder (3)\UnitConv.SDK\bin\Debug\Konwerter.SDK.dll
+C:\Users\V-30\Desktop\Nowy folder (3)\UnitConv.SDK\bin\Debug\Konwerter.SDK.pdb
+C:\Users\V-30\Desktop\Nowy folder (3)\UnitConv.SDK\obj\Debug\Konwerter.SDK.csprojAssemblyReference.cache
+C:\Users\V-30\Desktop\Nowy folder (3)\UnitConv.SDK\obj\Debug\Konwerter.SDK.csproj.CoreCompileInputs.cache
+C:\Users\V-30\Desktop\Nowy folder (3)\UnitConv.SDK\obj\Debug\Konwerter.SDK.dll
+C:\Users\V-30\Desktop\Nowy folder (3)\UnitConv.SDK\obj\Debug\Konwerter.SDK.pdb
+C:\Users\V-30\Desktop\Zaliczenie na 3\Konwerter.SDK\bin\Debug\Konwerter.SDK.dll
+C:\Users\V-30\Desktop\Zaliczenie na 3\Konwerter.SDK\bin\Debug\Konwerter.SDK.pdb
+C:\Users\V-30\Desktop\Zaliczenie na 3\Konwerter.SDK\obj\Debug\Konwerter.SDK.csproj.CoreCompileInputs.cache
+C:\Users\V-30\Desktop\Zaliczenie na 3\Konwerter.SDK\obj\Debug\Konwerter.SDK.dll
+C:\Users\V-30\Desktop\Zaliczenie na 3\Konwerter.SDK\obj\Debug\Konwerter.SDK.pdb

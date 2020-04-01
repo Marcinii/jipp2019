@@ -1,0 +1,30 @@
+﻿<Window x:Class="Konwerter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Konwerter"
+        mc:Ignorable="d"
+    Title="MainWindow" Height="694.032" Width="812.299">
+    <Grid Background="DarkCyan" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="125*"/>
+            <ColumnDefinition Width="12*"/>
+            <ColumnDefinition Width="64*"/>
+        </Grid.ColumnDefinitions>
+        <ComboBox Margin="0,83,260,548" x:Name="ComboOption" DropDownClosed="ComboOption_DropDownClosed" RenderTransformOrigin="0.507,2.154" HorizontalAlignment="Right" Width="200" />
+        <ComboBox Margin="300,83,0,548" x:Name="EntryValue" />
+        <ComboBox Margin="21,83,35,548" x:Name="EndValue" Grid.Column="2" />
+        <Button x:Name="ButtonConvert" Content="Oblicz" FontSize="16" Click="Convert" Margin="300,170,0,411" RenderTransformOrigin="0.614,3.59"/>
+        <DataGrid x:Name="statisticsDataGrid" HorizontalAlignment="Left" Height="385" Margin="10,268,0,0" VerticalAlignment="Top" Width="784" Grid.ColumnSpan="3"/>
+
+        <TextBox Margin="21,196,35,0" IsReadOnly="True" x:Name="ResultOutput" Height="33" VerticalAlignment="Top" Grid.Column="2" />
+        <Label Content="Z JEDNOSTKI" HorizontalAlignment="Left" Margin="358,42,0,0" VerticalAlignment="Top" Width="86" FontWeight="Bold"/>
+        <Label Content="NA JEDNOSTKE" HorizontalAlignment="Left" Margin="77,42,0,0" VerticalAlignment="Top" Width="97" FontWeight="Bold" RenderTransformOrigin="-0.674,0.729" Grid.Column="2"/>
+
+        <TextBox Margin="40,196,260,0" x:Name="EntryInputValue" VerticalAlignment="Top" Height="30" />
+        <Label Content="TYP" HorizontalAlignment="Left" Margin="121,42,0,0" VerticalAlignment="Top" Width="34" FontWeight="Bold" RenderTransformOrigin="1.618,0.5" />
+        <Label x:Name="display_txt_Copy" Content="WYNIK&#xD;&#xA;" Margin="98,152,106,0" VerticalAlignment="Top" RenderTransformOrigin="0.956,0.531" FontWeight="Bold" Height="24" Grid.Column="2"/>
+        <Label Content="WARTOSC" HorizontalAlignment="Left" Margin="96,152,0,0" VerticalAlignment="Top" Width="73" FontWeight="Bold" RenderTransformOrigin="2.575,-1.154" />
+    </Grid>
+</Window>

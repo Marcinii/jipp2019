@@ -1,0 +1,2 @@
+C:\Users\V-30\Desktop\Zaliczenie na 3\KonwerterW.Web\obj\Debug\KonwerterW.csprojAssemblyReference.cache
+C:\Users\V-30\Desktop\Zaliczenie na 3\KonwerterW.Web\obj\Debug\KonwerterW.csproj.CoreCompileInputs.cache

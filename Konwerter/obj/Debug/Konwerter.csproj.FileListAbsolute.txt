@@ -1,0 +1,175 @@
+C:\Users\V-30\Desktop\zal\UnitConv\bin\Debug\Konwerter2.exe.config
+C:\Users\V-30\Desktop\zal\UnitConv\bin\Debug\Konwerter2.exe
+C:\Users\V-30\Desktop\zal\UnitConv\bin\Debug\Konwerter2.pdb
+C:\Users\V-30\Desktop\zal\UnitConv\bin\Debug\Autofac.dll
+C:\Users\V-30\Desktop\zal\UnitConv\bin\Debug\Converter.SDK.dll
+C:\Users\V-30\Desktop\zal\UnitConv\bin\Debug\EntityFramework.dll
+C:\Users\V-30\Desktop\zal\UnitConv\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\V-30\Desktop\zal\UnitConv\bin\Debug\Konwerter.Logic.dll
+C:\Users\V-30\Desktop\zal\UnitConv\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\V-30\Desktop\zal\UnitConv\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\V-30\Desktop\zal\UnitConv\bin\Debug\Newtonsoft.Json.dll
+C:\Users\V-30\Desktop\zal\UnitConv\bin\Debug\Converter.SDK.pdb
+C:\Users\V-30\Desktop\zal\UnitConv\bin\Debug\Konwerter.Logic.pdb
+C:\Users\V-30\Desktop\zal\UnitConv\bin\Debug\Konwerter.Logic.dll.config
+C:\Users\V-30\Desktop\zal\UnitConv\bin\Debug\Autofac.pdb
+C:\Users\V-30\Desktop\zal\UnitConv\bin\Debug\Autofac.xml
+C:\Users\V-30\Desktop\zal\UnitConv\bin\Debug\EntityFramework.xml
+C:\Users\V-30\Desktop\zal\UnitConv\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\V-30\Desktop\zal\UnitConv\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\V-30\Desktop\zal\UnitConv\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\V-30\Desktop\zal\UnitConv\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+C:\Users\V-30\Desktop\zal\UnitConv\bin\Debug\Newtonsoft.Json.xml
+C:\Users\V-30\Desktop\zal\UnitConv\obj\Debug\Konwerter.csprojAssemblyReference.cache
+C:\Users\V-30\Desktop\zal\UnitConv\obj\Debug\MainWindow.g.cs
+C:\Users\V-30\Desktop\zal\UnitConv\obj\Debug\App.g.cs
+C:\Users\V-30\Desktop\zal\UnitConv\obj\Debug\Konwerter2_MarkupCompile.cache
+C:\Users\V-30\Desktop\zal\UnitConv\obj\Debug\Konwerter2_MarkupCompile.lref
+C:\Users\V-30\Desktop\zal\UnitConv\obj\Debug\MainWindow.baml
+C:\Users\V-30\Desktop\zal\UnitConv\obj\Debug\Konwerter2.g.resources
+C:\Users\V-30\Desktop\zal\UnitConv\obj\Debug\Konwerter2.Properties.Resources.resources
+C:\Users\V-30\Desktop\zal\UnitConv\obj\Debug\Konwerter.csproj.GenerateResource.cache
+C:\Users\V-30\Desktop\zal\UnitConv\obj\Debug\Konwerter.csproj.CoreCompileInputs.cache
+C:\Users\V-30\Desktop\zal\UnitConv\obj\Debug\Konwerter.csproj.CopyComplete
+C:\Users\V-30\Desktop\zal\UnitConv\obj\Debug\Konwerter2.exe
+C:\Users\V-30\Desktop\zal\UnitConv\obj\Debug\Konwerter2.pdb
+C:\Users\V-30\Desktop\Nowy folder\zal\UnitConv\bin\Debug\Konwerter2.exe.config
+C:\Users\V-30\Desktop\Nowy folder\zal\UnitConv\bin\Debug\Konwerter2.exe
+C:\Users\V-30\Desktop\Nowy folder\zal\UnitConv\bin\Debug\Konwerter2.pdb
+C:\Users\V-30\Desktop\Nowy folder\zal\UnitConv\bin\Debug\Autofac.dll
+C:\Users\V-30\Desktop\Nowy folder\zal\UnitConv\bin\Debug\EntityFramework.dll
+C:\Users\V-30\Desktop\Nowy folder\zal\UnitConv\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\V-30\Desktop\Nowy folder\zal\UnitConv\bin\Debug\Konwerter.Logic.dll
+C:\Users\V-30\Desktop\Nowy folder\zal\UnitConv\bin\Debug\Konwerter.SDK.dll
+C:\Users\V-30\Desktop\Nowy folder\zal\UnitConv\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\V-30\Desktop\Nowy folder\zal\UnitConv\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\V-30\Desktop\Nowy folder\zal\UnitConv\bin\Debug\Newtonsoft.Json.dll
+C:\Users\V-30\Desktop\Nowy folder\zal\UnitConv\bin\Debug\Konwerter.SDK.pdb
+C:\Users\V-30\Desktop\Nowy folder\zal\UnitConv\bin\Debug\Konwerter.Logic.pdb
+C:\Users\V-30\Desktop\Nowy folder\zal\UnitConv\bin\Debug\Konwerter.Logic.dll.config
+C:\Users\V-30\Desktop\Nowy folder\zal\UnitConv\bin\Debug\Autofac.pdb
+C:\Users\V-30\Desktop\Nowy folder\zal\UnitConv\bin\Debug\Autofac.xml
+C:\Users\V-30\Desktop\Nowy folder\zal\UnitConv\bin\Debug\EntityFramework.xml
+C:\Users\V-30\Desktop\Nowy folder\zal\UnitConv\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\V-30\Desktop\Nowy folder\zal\UnitConv\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\V-30\Desktop\Nowy folder\zal\UnitConv\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\V-30\Desktop\Nowy folder\zal\UnitConv\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+C:\Users\V-30\Desktop\Nowy folder\zal\UnitConv\bin\Debug\Newtonsoft.Json.xml
+C:\Users\V-30\Desktop\Nowy folder\zal\UnitConv\obj\Debug\Konwerter.csprojAssemblyReference.cache
+C:\Users\V-30\Desktop\Nowy folder\zal\UnitConv\obj\Debug\MainWindow.g.cs
+C:\Users\V-30\Desktop\Nowy folder\zal\UnitConv\obj\Debug\App.g.cs
+C:\Users\V-30\Desktop\Nowy folder\zal\UnitConv\obj\Debug\Konwerter2_MarkupCompile.cache
+C:\Users\V-30\Desktop\Nowy folder\zal\UnitConv\obj\Debug\Konwerter2_MarkupCompile.lref
+C:\Users\V-30\Desktop\Nowy folder\zal\UnitConv\obj\Debug\MainWindow.baml
+C:\Users\V-30\Desktop\Nowy folder\zal\UnitConv\obj\Debug\Konwerter2.g.resources
+C:\Users\V-30\Desktop\Nowy folder\zal\UnitConv\obj\Debug\Konwerter2.Properties.Resources.resources
+C:\Users\V-30\Desktop\Nowy folder\zal\UnitConv\obj\Debug\Konwerter.csproj.GenerateResource.cache
+C:\Users\V-30\Desktop\Nowy folder\zal\UnitConv\obj\Debug\Konwerter.csproj.CoreCompileInputs.cache
+C:\Users\V-30\Desktop\Nowy folder\zal\UnitConv\obj\Debug\Konwerter.csproj.CopyComplete
+C:\Users\V-30\Desktop\Nowy folder\zal\UnitConv\obj\Debug\Konwerter2.exe
+C:\Users\V-30\Desktop\Nowy folder\zal\UnitConv\obj\Debug\Konwerter2.pdb
+C:\Users\V-30\Desktop\Nowy folder (3)\UnitConv\bin\Debug\Konwerter2.exe.config
+C:\Users\V-30\Desktop\Nowy folder (3)\UnitConv\bin\Debug\Konwerter2.exe
+C:\Users\V-30\Desktop\Nowy folder (3)\UnitConv\bin\Debug\Konwerter2.pdb
+C:\Users\V-30\Desktop\Nowy folder (3)\UnitConv\bin\Debug\Autofac.dll
+C:\Users\V-30\Desktop\Nowy folder (3)\UnitConv\bin\Debug\EntityFramework.dll
+C:\Users\V-30\Desktop\Nowy folder (3)\UnitConv\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\V-30\Desktop\Nowy folder (3)\UnitConv\bin\Debug\Konwerter.Logic.dll
+C:\Users\V-30\Desktop\Nowy folder (3)\UnitConv\bin\Debug\Konwerter.SDK.dll
+C:\Users\V-30\Desktop\Nowy folder (3)\UnitConv\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\V-30\Desktop\Nowy folder (3)\UnitConv\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\V-30\Desktop\Nowy folder (3)\UnitConv\bin\Debug\Newtonsoft.Json.dll
+C:\Users\V-30\Desktop\Nowy folder (3)\UnitConv\bin\Debug\Konwerter.SDK.pdb
+C:\Users\V-30\Desktop\Nowy folder (3)\UnitConv\bin\Debug\Konwerter.Logic.pdb
+C:\Users\V-30\Desktop\Nowy folder (3)\UnitConv\bin\Debug\Konwerter.Logic.dll.config
+C:\Users\V-30\Desktop\Nowy folder (3)\UnitConv\bin\Debug\Autofac.pdb
+C:\Users\V-30\Desktop\Nowy folder (3)\UnitConv\bin\Debug\Autofac.xml
+C:\Users\V-30\Desktop\Nowy folder (3)\UnitConv\bin\Debug\EntityFramework.xml
+C:\Users\V-30\Desktop\Nowy folder (3)\UnitConv\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\V-30\Desktop\Nowy folder (3)\UnitConv\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\V-30\Desktop\Nowy folder (3)\UnitConv\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\V-30\Desktop\Nowy folder (3)\UnitConv\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+C:\Users\V-30\Desktop\Nowy folder (3)\UnitConv\bin\Debug\Newtonsoft.Json.xml
+C:\Users\V-30\Desktop\Nowy folder (3)\UnitConv\obj\Debug\Konwerter.csprojAssemblyReference.cache
+C:\Users\V-30\Desktop\Nowy folder (3)\UnitConv\obj\Debug\MainWindow.g.cs
+C:\Users\V-30\Desktop\Nowy folder (3)\UnitConv\obj\Debug\App.g.cs
+C:\Users\V-30\Desktop\Nowy folder (3)\UnitConv\obj\Debug\Konwerter2_MarkupCompile.cache
+C:\Users\V-30\Desktop\Nowy folder (3)\UnitConv\obj\Debug\Konwerter2_MarkupCompile.lref
+C:\Users\V-30\Desktop\Nowy folder (3)\UnitConv\obj\Debug\MainWindow.baml
+C:\Users\V-30\Desktop\Nowy folder (3)\UnitConv\obj\Debug\Konwerter2.g.resources
+C:\Users\V-30\Desktop\Nowy folder (3)\UnitConv\obj\Debug\Konwerter2.Properties.Resources.resources
+C:\Users\V-30\Desktop\Nowy folder (3)\UnitConv\obj\Debug\Konwerter.csproj.GenerateResource.cache
+C:\Users\V-30\Desktop\Nowy folder (3)\UnitConv\obj\Debug\Konwerter.csproj.CoreCompileInputs.cache
+C:\Users\V-30\Desktop\Nowy folder (3)\UnitConv\obj\Debug\Konwerter.csproj.CopyComplete
+C:\Users\V-30\Desktop\Nowy folder (3)\UnitConv\obj\Debug\Konwerter2.exe
+C:\Users\V-30\Desktop\Nowy folder (3)\UnitConv\obj\Debug\Konwerter2.pdb
+C:\Users\V-30\Desktop\DOOBRY — kopia — kopia\UnitConv\bin\Debug\Konwerter2.exe.config
+C:\Users\V-30\Desktop\DOOBRY — kopia — kopia\UnitConv\bin\Debug\Konwerter2.exe
+C:\Users\V-30\Desktop\DOOBRY — kopia — kopia\UnitConv\bin\Debug\Konwerter2.pdb
+C:\Users\V-30\Desktop\DOOBRY — kopia — kopia\UnitConv\bin\Debug\Autofac.dll
+C:\Users\V-30\Desktop\DOOBRY — kopia — kopia\UnitConv\bin\Debug\EntityFramework.dll
+C:\Users\V-30\Desktop\DOOBRY — kopia — kopia\UnitConv\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\V-30\Desktop\DOOBRY — kopia — kopia\UnitConv\bin\Debug\Konwerter.Logic.dll
+C:\Users\V-30\Desktop\DOOBRY — kopia — kopia\UnitConv\bin\Debug\Konwerter.SDK.dll
+C:\Users\V-30\Desktop\DOOBRY — kopia — kopia\UnitConv\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\V-30\Desktop\DOOBRY — kopia — kopia\UnitConv\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\V-30\Desktop\DOOBRY — kopia — kopia\UnitConv\bin\Debug\Newtonsoft.Json.dll
+C:\Users\V-30\Desktop\DOOBRY — kopia — kopia\UnitConv\bin\Debug\Konwerter.SDK.pdb
+C:\Users\V-30\Desktop\DOOBRY — kopia — kopia\UnitConv\bin\Debug\Konwerter.Logic.pdb
+C:\Users\V-30\Desktop\DOOBRY — kopia — kopia\UnitConv\bin\Debug\Konwerter.Logic.dll.config
+C:\Users\V-30\Desktop\DOOBRY — kopia — kopia\UnitConv\bin\Debug\Autofac.pdb
+C:\Users\V-30\Desktop\DOOBRY — kopia — kopia\UnitConv\bin\Debug\Autofac.xml
+C:\Users\V-30\Desktop\DOOBRY — kopia — kopia\UnitConv\bin\Debug\EntityFramework.xml
+C:\Users\V-30\Desktop\DOOBRY — kopia — kopia\UnitConv\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\V-30\Desktop\DOOBRY — kopia — kopia\UnitConv\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\V-30\Desktop\DOOBRY — kopia — kopia\UnitConv\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\V-30\Desktop\DOOBRY — kopia — kopia\UnitConv\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+C:\Users\V-30\Desktop\DOOBRY — kopia — kopia\UnitConv\bin\Debug\Newtonsoft.Json.xml
+C:\Users\V-30\Desktop\DOOBRY — kopia — kopia\UnitConv\obj\Debug\Konwerter.csprojAssemblyReference.cache
+C:\Users\V-30\Desktop\DOOBRY — kopia — kopia\UnitConv\obj\Debug\MainWindow.g.cs
+C:\Users\V-30\Desktop\DOOBRY — kopia — kopia\UnitConv\obj\Debug\App.g.cs
+C:\Users\V-30\Desktop\DOOBRY — kopia — kopia\UnitConv\obj\Debug\Konwerter2_MarkupCompile.cache
+C:\Users\V-30\Desktop\DOOBRY — kopia — kopia\UnitConv\obj\Debug\Konwerter2_MarkupCompile.lref
+C:\Users\V-30\Desktop\DOOBRY — kopia — kopia\UnitConv\obj\Debug\MainWindow.baml
+C:\Users\V-30\Desktop\DOOBRY — kopia — kopia\UnitConv\obj\Debug\Konwerter2.g.resources
+C:\Users\V-30\Desktop\DOOBRY — kopia — kopia\UnitConv\obj\Debug\Konwerter2.Properties.Resources.resources
+C:\Users\V-30\Desktop\DOOBRY — kopia — kopia\UnitConv\obj\Debug\Konwerter.csproj.GenerateResource.cache
+C:\Users\V-30\Desktop\DOOBRY — kopia — kopia\UnitConv\obj\Debug\Konwerter.csproj.CoreCompileInputs.cache
+C:\Users\V-30\Desktop\DOOBRY — kopia — kopia\UnitConv\obj\Debug\Konwerter.csproj.CopyComplete
+C:\Users\V-30\Desktop\DOOBRY — kopia — kopia\UnitConv\obj\Debug\Konwerter2.exe
+C:\Users\V-30\Desktop\DOOBRY — kopia — kopia\UnitConv\obj\Debug\Konwerter2.pdb
+C:\Users\V-30\Desktop\Zaliczenie na 3\Konwerter\bin\Debug\Konwerter2.exe.config
+C:\Users\V-30\Desktop\Zaliczenie na 3\Konwerter\bin\Debug\Konwerter2.exe
+C:\Users\V-30\Desktop\Zaliczenie na 3\Konwerter\bin\Debug\Konwerter2.pdb
+C:\Users\V-30\Desktop\Zaliczenie na 3\Konwerter\bin\Debug\Autofac.dll
+C:\Users\V-30\Desktop\Zaliczenie na 3\Konwerter\bin\Debug\EntityFramework.dll
+C:\Users\V-30\Desktop\Zaliczenie na 3\Konwerter\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\V-30\Desktop\Zaliczenie na 3\Konwerter\bin\Debug\Konwerter.Logic.dll
+C:\Users\V-30\Desktop\Zaliczenie na 3\Konwerter\bin\Debug\Konwerter.SDK.dll
+C:\Users\V-30\Desktop\Zaliczenie na 3\Konwerter\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\V-30\Desktop\Zaliczenie na 3\Konwerter\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\V-30\Desktop\Zaliczenie na 3\Konwerter\bin\Debug\Newtonsoft.Json.dll
+C:\Users\V-30\Desktop\Zaliczenie na 3\Konwerter\bin\Debug\Konwerter.SDK.pdb
+C:\Users\V-30\Desktop\Zaliczenie na 3\Konwerter\bin\Debug\Konwerter.Logic.pdb
+C:\Users\V-30\Desktop\Zaliczenie na 3\Konwerter\bin\Debug\Konwerter.Logic.dll.config
+C:\Users\V-30\Desktop\Zaliczenie na 3\Konwerter\bin\Debug\Autofac.pdb
+C:\Users\V-30\Desktop\Zaliczenie na 3\Konwerter\bin\Debug\Autofac.xml
+C:\Users\V-30\Desktop\Zaliczenie na 3\Konwerter\bin\Debug\EntityFramework.xml
+C:\Users\V-30\Desktop\Zaliczenie na 3\Konwerter\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\V-30\Desktop\Zaliczenie na 3\Konwerter\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\V-30\Desktop\Zaliczenie na 3\Konwerter\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\V-30\Desktop\Zaliczenie na 3\Konwerter\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+C:\Users\V-30\Desktop\Zaliczenie na 3\Konwerter\bin\Debug\Newtonsoft.Json.xml
+C:\Users\V-30\Desktop\Zaliczenie na 3\Konwerter\obj\Debug\Konwerter.csprojAssemblyReference.cache
+C:\Users\V-30\Desktop\Zaliczenie na 3\Konwerter\obj\Debug\MainWindow.g.cs
+C:\Users\V-30\Desktop\Zaliczenie na 3\Konwerter\obj\Debug\App.g.cs
+C:\Users\V-30\Desktop\Zaliczenie na 3\Konwerter\obj\Debug\Konwerter2_MarkupCompile.cache
+C:\Users\V-30\Desktop\Zaliczenie na 3\Konwerter\obj\Debug\Konwerter2_MarkupCompile.lref
+C:\Users\V-30\Desktop\Zaliczenie na 3\Konwerter\obj\Debug\MainWindow.baml
+C:\Users\V-30\Desktop\Zaliczenie na 3\Konwerter\obj\Debug\Konwerter2.g.resources
+C:\Users\V-30\Desktop\Zaliczenie na 3\Konwerter\obj\Debug\Konwerter2.Properties.Resources.resources
+C:\Users\V-30\Desktop\Zaliczenie na 3\Konwerter\obj\Debug\Konwerter.csproj.GenerateResource.cache
+C:\Users\V-30\Desktop\Zaliczenie na 3\Konwerter\obj\Debug\Konwerter.csproj.CoreCompileInputs.cache
+C:\Users\V-30\Desktop\Zaliczenie na 3\Konwerter\obj\Debug\Konwerter.csproj.CopyComplete
+C:\Users\V-30\Desktop\Zaliczenie na 3\Konwerter\obj\Debug\Konwerter2.exe
+C:\Users\V-30\Desktop\Zaliczenie na 3\Konwerter\obj\Debug\Konwerter2.pdb
