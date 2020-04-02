@@ -1,0 +1,8 @@
+C:\Users\lynx\Desktop\Nowy folder\Converter.SDK\bin\Debug\netstandard2.0\Converter.SDK.deps.json
+C:\Users\lynx\Desktop\Nowy folder\Converter.SDK\bin\Debug\netstandard2.0\Converter.SDK.dll
+C:\Users\lynx\Desktop\Nowy folder\Converter.SDK\bin\Debug\netstandard2.0\Converter.SDK.pdb
+C:\Users\lynx\Desktop\Nowy folder\Converter.SDK\obj\Debug\netstandard2.0\Converter.SDK.csprojAssemblyReference.cache
+C:\Users\lynx\Desktop\Nowy folder\Converter.SDK\obj\Debug\netstandard2.0\Converter.SDK.AssemblyInfoInputs.cache
+C:\Users\lynx\Desktop\Nowy folder\Converter.SDK\obj\Debug\netstandard2.0\Converter.SDK.AssemblyInfo.cs
+C:\Users\lynx\Desktop\Nowy folder\Converter.SDK\obj\Debug\netstandard2.0\Converter.SDK.dll
+C:\Users\lynx\Desktop\Nowy folder\Converter.SDK\obj\Debug\netstandard2.0\Converter.SDK.pdb

@@ -1,0 +1,8 @@
+C:\Users\lynx\Desktop\Nowy folder\DataConverter\DataConverter\bin\Debug\DataConverter.dll
+C:\Users\lynx\Desktop\Nowy folder\DataConverter\DataConverter\bin\Debug\DataConverter.pdb
+C:\Users\lynx\Desktop\Nowy folder\DataConverter\DataConverter\bin\Debug\Converter.SDK.dll
+C:\Users\lynx\Desktop\Nowy folder\DataConverter\DataConverter\bin\Debug\Converter.SDK.pdb
+C:\Users\lynx\Desktop\Nowy folder\DataConverter\DataConverter\obj\Debug\DataConverter.csprojAssemblyReference.cache
+C:\Users\lynx\Desktop\Nowy folder\DataConverter\DataConverter\obj\Debug\DataConverter.csproj.CopyComplete
+C:\Users\lynx\Desktop\Nowy folder\DataConverter\DataConverter\obj\Debug\DataConverter.dll
+C:\Users\lynx\Desktop\Nowy folder\DataConverter\DataConverter\obj\Debug\DataConverter.pdb
