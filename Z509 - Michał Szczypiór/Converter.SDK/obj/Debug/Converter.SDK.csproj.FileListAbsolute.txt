@@ -1,0 +1,6 @@
+C:\Users\dusza\Downloads\Projekt\Converter.SDK\bin\Debug\Converter.SDK.dll
+C:\Users\dusza\Downloads\Projekt\Converter.SDK\bin\Debug\Converter.SDK.pdb
+C:\Users\dusza\Downloads\Projekt\Converter.SDK\obj\Debug\Converter.SDK.csprojAssemblyReference.cache
+C:\Users\dusza\Downloads\Projekt\Converter.SDK\obj\Debug\Converter.SDK.csproj.CoreCompileInputs.cache
+C:\Users\dusza\Downloads\Projekt\Converter.SDK\obj\Debug\Converter.SDK.dll
+C:\Users\dusza\Downloads\Projekt\Converter.SDK\obj\Debug\Converter.SDK.pdb

@@ -1,0 +1,103 @@
+C:\Users\dusza\Downloads\Projekt\UnitCoverterPart2\obj\Debug\UnitCoverterPart2.csprojAssemblyReference.cache
+C:\Users\dusza\Downloads\Projekt\UnitCoverterPart2\obj\Debug\MainWindow.g.cs
+C:\Users\dusza\Downloads\Projekt\UnitCoverterPart2\obj\Debug\App.g.cs
+C:\Users\dusza\Downloads\Projekt\UnitCoverterPart2\obj\Debug\UnitCoverterPart2_MarkupCompile.cache
+C:\Users\dusza\Downloads\Projekt\UnitCoverterPart2\obj\Debug\UnitCoverterPart2_MarkupCompile.lref
+C:\Users\dusza\Downloads\Projekt\UnitCoverterPart2\bin\Debug\UnitCoverterPart2.exe.config
+C:\Users\dusza\Downloads\Projekt\UnitCoverterPart2\bin\Debug\UnitCoverterPart2.exe
+C:\Users\dusza\Downloads\Projekt\UnitCoverterPart2\bin\Debug\UnitCoverterPart2.pdb
+C:\Users\dusza\Downloads\Projekt\UnitCoverterPart2\bin\Debug\Autofac.dll
+C:\Users\dusza\Downloads\Projekt\UnitCoverterPart2\bin\Debug\Converter.SDK.dll
+C:\Users\dusza\Downloads\Projekt\UnitCoverterPart2\bin\Debug\EntityFramework.dll
+C:\Users\dusza\Downloads\Projekt\UnitCoverterPart2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dusza\Downloads\Projekt\UnitCoverterPart2\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\dusza\Downloads\Projekt\UnitCoverterPart2\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\dusza\Downloads\Projekt\UnitCoverterPart2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\dusza\Downloads\Projekt\UnitCoverterPart2\bin\Debug\UnitConverter.Logic.dll
+C:\Users\dusza\Downloads\Projekt\UnitCoverterPart2\bin\Debug\Converter.SDK.pdb
+C:\Users\dusza\Downloads\Projekt\UnitCoverterPart2\bin\Debug\UnitConverter.Logic.pdb
+C:\Users\dusza\Downloads\Projekt\UnitCoverterPart2\bin\Debug\UnitConverter.Logic.dll.config
+C:\Users\dusza\Downloads\Projekt\UnitCoverterPart2\bin\Debug\Autofac.pdb
+C:\Users\dusza\Downloads\Projekt\UnitCoverterPart2\bin\Debug\Autofac.xml
+C:\Users\dusza\Downloads\Projekt\UnitCoverterPart2\bin\Debug\EntityFramework.xml
+C:\Users\dusza\Downloads\Projekt\UnitCoverterPart2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dusza\Downloads\Projekt\UnitCoverterPart2\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\dusza\Downloads\Projekt\UnitCoverterPart2\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\dusza\Downloads\Projekt\UnitCoverterPart2\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+C:\Users\dusza\Downloads\Projekt\UnitCoverterPart2\bin\Debug\Newtonsoft.Json.xml
+C:\Users\dusza\Downloads\Projekt\UnitCoverterPart2\obj\Debug\MainWindow.baml
+C:\Users\dusza\Downloads\Projekt\UnitCoverterPart2\obj\Debug\UnitCoverterPart2.g.resources
+C:\Users\dusza\Downloads\Projekt\UnitCoverterPart2\obj\Debug\UnitCoverterPart2.Properties.Resources.resources
+C:\Users\dusza\Downloads\Projekt\UnitCoverterPart2\obj\Debug\UnitCoverterPart2.csproj.GenerateResource.cache
+C:\Users\dusza\Downloads\Projekt\UnitCoverterPart2\obj\Debug\UnitCoverterPart2.csproj.CoreCompileInputs.cache
+C:\Users\dusza\Downloads\Projekt\UnitCoverterPart2\obj\Debug\UnitCoverterPart2.csproj.CopyComplete
+C:\Users\dusza\Downloads\Projekt\UnitCoverterPart2\obj\Debug\UnitCoverterPart2.exe
+C:\Users\dusza\Downloads\Projekt\UnitCoverterPart2\obj\Debug\UnitCoverterPart2.pdb
+C:\Users\Michal\Desktop\Projekt\UnitCoverterPart2\bin\Debug\UnitCoverterPart2.exe.config
+C:\Users\Michal\Desktop\Projekt\UnitCoverterPart2\bin\Debug\UnitCoverterPart2.exe
+C:\Users\Michal\Desktop\Projekt\UnitCoverterPart2\bin\Debug\UnitCoverterPart2.pdb
+C:\Users\Michal\Desktop\Projekt\UnitCoverterPart2\bin\Debug\Autofac.dll
+C:\Users\Michal\Desktop\Projekt\UnitCoverterPart2\bin\Debug\Converter.SDK.dll
+C:\Users\Michal\Desktop\Projekt\UnitCoverterPart2\bin\Debug\EntityFramework.dll
+C:\Users\Michal\Desktop\Projekt\UnitCoverterPart2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Michal\Desktop\Projekt\UnitCoverterPart2\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\Michal\Desktop\Projekt\UnitCoverterPart2\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\Michal\Desktop\Projekt\UnitCoverterPart2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Michal\Desktop\Projekt\UnitCoverterPart2\bin\Debug\UnitConverter.Logic.dll
+C:\Users\Michal\Desktop\Projekt\UnitCoverterPart2\bin\Debug\Converter.SDK.pdb
+C:\Users\Michal\Desktop\Projekt\UnitCoverterPart2\bin\Debug\UnitConverter.Logic.pdb
+C:\Users\Michal\Desktop\Projekt\UnitCoverterPart2\bin\Debug\UnitConverter.Logic.dll.config
+C:\Users\Michal\Desktop\Projekt\UnitCoverterPart2\bin\Debug\Autofac.pdb
+C:\Users\Michal\Desktop\Projekt\UnitCoverterPart2\bin\Debug\Autofac.xml
+C:\Users\Michal\Desktop\Projekt\UnitCoverterPart2\bin\Debug\EntityFramework.xml
+C:\Users\Michal\Desktop\Projekt\UnitCoverterPart2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Michal\Desktop\Projekt\UnitCoverterPart2\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\Michal\Desktop\Projekt\UnitCoverterPart2\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\Michal\Desktop\Projekt\UnitCoverterPart2\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+C:\Users\Michal\Desktop\Projekt\UnitCoverterPart2\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Michal\Desktop\Projekt\UnitCoverterPart2\obj\Debug\UnitCoverterPart2.csprojAssemblyReference.cache
+C:\Users\Michal\Desktop\Projekt\UnitCoverterPart2\obj\Debug\MainWindow.g.cs
+C:\Users\Michal\Desktop\Projekt\UnitCoverterPart2\obj\Debug\App.g.cs
+C:\Users\Michal\Desktop\Projekt\UnitCoverterPart2\obj\Debug\UnitCoverterPart2_MarkupCompile.cache
+C:\Users\Michal\Desktop\Projekt\UnitCoverterPart2\obj\Debug\UnitCoverterPart2_MarkupCompile.lref
+C:\Users\Michal\Desktop\Projekt\UnitCoverterPart2\obj\Debug\MainWindow.baml
+C:\Users\Michal\Desktop\Projekt\UnitCoverterPart2\obj\Debug\UnitCoverterPart2.g.resources
+C:\Users\Michal\Desktop\Projekt\UnitCoverterPart2\obj\Debug\UnitCoverterPart2.Properties.Resources.resources
+C:\Users\Michal\Desktop\Projekt\UnitCoverterPart2\obj\Debug\UnitCoverterPart2.csproj.GenerateResource.cache
+C:\Users\Michal\Desktop\Projekt\UnitCoverterPart2\obj\Debug\UnitCoverterPart2.csproj.CopyComplete
+C:\Users\Michal\Desktop\Projekt\UnitCoverterPart2\obj\Debug\UnitCoverterPart2.exe
+C:\Users\Michal\Desktop\Projekt\UnitCoverterPart2\obj\Debug\UnitCoverterPart2.pdb
+C:\Users\Michal\Desktop\Projekt\Nowy folder\Z509 - Michał Szczypiór\UnitCoverterPart2\bin\Debug\UnitCoverterPart2.exe.config
+C:\Users\Michal\Desktop\Projekt\Nowy folder\Z509 - Michał Szczypiór\UnitCoverterPart2\bin\Debug\UnitCoverterPart2.exe
+C:\Users\Michal\Desktop\Projekt\Nowy folder\Z509 - Michał Szczypiór\UnitCoverterPart2\bin\Debug\UnitCoverterPart2.pdb
+C:\Users\Michal\Desktop\Projekt\Nowy folder\Z509 - Michał Szczypiór\UnitCoverterPart2\bin\Debug\Autofac.dll
+C:\Users\Michal\Desktop\Projekt\Nowy folder\Z509 - Michał Szczypiór\UnitCoverterPart2\bin\Debug\Converter.SDK.dll
+C:\Users\Michal\Desktop\Projekt\Nowy folder\Z509 - Michał Szczypiór\UnitCoverterPart2\bin\Debug\EntityFramework.dll
+C:\Users\Michal\Desktop\Projekt\Nowy folder\Z509 - Michał Szczypiór\UnitCoverterPart2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Michal\Desktop\Projekt\Nowy folder\Z509 - Michał Szczypiór\UnitCoverterPart2\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\Michal\Desktop\Projekt\Nowy folder\Z509 - Michał Szczypiór\UnitCoverterPart2\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\Michal\Desktop\Projekt\Nowy folder\Z509 - Michał Szczypiór\UnitCoverterPart2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Michal\Desktop\Projekt\Nowy folder\Z509 - Michał Szczypiór\UnitCoverterPart2\bin\Debug\UnitConverter.Logic.dll
+C:\Users\Michal\Desktop\Projekt\Nowy folder\Z509 - Michał Szczypiór\UnitCoverterPart2\bin\Debug\Converter.SDK.pdb
+C:\Users\Michal\Desktop\Projekt\Nowy folder\Z509 - Michał Szczypiór\UnitCoverterPart2\bin\Debug\UnitConverter.Logic.pdb
+C:\Users\Michal\Desktop\Projekt\Nowy folder\Z509 - Michał Szczypiór\UnitCoverterPart2\bin\Debug\UnitConverter.Logic.dll.config
+C:\Users\Michal\Desktop\Projekt\Nowy folder\Z509 - Michał Szczypiór\UnitCoverterPart2\bin\Debug\Autofac.pdb
+C:\Users\Michal\Desktop\Projekt\Nowy folder\Z509 - Michał Szczypiór\UnitCoverterPart2\bin\Debug\Autofac.xml
+C:\Users\Michal\Desktop\Projekt\Nowy folder\Z509 - Michał Szczypiór\UnitCoverterPart2\bin\Debug\EntityFramework.xml
+C:\Users\Michal\Desktop\Projekt\Nowy folder\Z509 - Michał Szczypiór\UnitCoverterPart2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Michal\Desktop\Projekt\Nowy folder\Z509 - Michał Szczypiór\UnitCoverterPart2\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\Michal\Desktop\Projekt\Nowy folder\Z509 - Michał Szczypiór\UnitCoverterPart2\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\Michal\Desktop\Projekt\Nowy folder\Z509 - Michał Szczypiór\UnitCoverterPart2\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+C:\Users\Michal\Desktop\Projekt\Nowy folder\Z509 - Michał Szczypiór\UnitCoverterPart2\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Michal\Desktop\Projekt\Nowy folder\Z509 - Michał Szczypiór\UnitCoverterPart2\obj\Debug\UnitCoverterPart2.csprojAssemblyReference.cache
+C:\Users\Michal\Desktop\Projekt\Nowy folder\Z509 - Michał Szczypiór\UnitCoverterPart2\obj\Debug\MainWindow.g.cs
+C:\Users\Michal\Desktop\Projekt\Nowy folder\Z509 - Michał Szczypiór\UnitCoverterPart2\obj\Debug\App.g.cs
+C:\Users\Michal\Desktop\Projekt\Nowy folder\Z509 - Michał Szczypiór\UnitCoverterPart2\obj\Debug\UnitCoverterPart2_MarkupCompile.cache
+C:\Users\Michal\Desktop\Projekt\Nowy folder\Z509 - Michał Szczypiór\UnitCoverterPart2\obj\Debug\UnitCoverterPart2_MarkupCompile.lref
+C:\Users\Michal\Desktop\Projekt\Nowy folder\Z509 - Michał Szczypiór\UnitCoverterPart2\obj\Debug\MainWindow.baml
+C:\Users\Michal\Desktop\Projekt\Nowy folder\Z509 - Michał Szczypiór\UnitCoverterPart2\obj\Debug\UnitCoverterPart2.g.resources
+C:\Users\Michal\Desktop\Projekt\Nowy folder\Z509 - Michał Szczypiór\UnitCoverterPart2\obj\Debug\UnitCoverterPart2.Properties.Resources.resources
+C:\Users\Michal\Desktop\Projekt\Nowy folder\Z509 - Michał Szczypiór\UnitCoverterPart2\obj\Debug\UnitCoverterPart2.csproj.GenerateResource.cache
+C:\Users\Michal\Desktop\Projekt\Nowy folder\Z509 - Michał Szczypiór\UnitCoverterPart2\obj\Debug\UnitCoverterPart2.csproj.CopyComplete
+C:\Users\Michal\Desktop\Projekt\Nowy folder\Z509 - Michał Szczypiór\UnitCoverterPart2\obj\Debug\UnitCoverterPart2.exe
+C:\Users\Michal\Desktop\Projekt\Nowy folder\Z509 - Michał Szczypiór\UnitCoverterPart2\obj\Debug\UnitCoverterPart2.pdb
