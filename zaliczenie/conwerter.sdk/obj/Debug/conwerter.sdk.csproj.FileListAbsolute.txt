@@ -1,0 +1,17 @@
+C:\Users\lynx\source\repos\UnitsConverter\zal\conwerter.sdk\bin\Debug\conwerter.sdk.dll
+C:\Users\lynx\source\repos\UnitsConverter\zal\conwerter.sdk\bin\Debug\conwerter.sdk.pdb
+C:\Users\lynx\source\repos\UnitsConverter\zal\conwerter.sdk\obj\Debug\conwerter.sdk.dll
+C:\Users\lynx\source\repos\UnitsConverter\zal\conwerter.sdk\obj\Debug\conwerter.sdk.pdb
+C:\Users\lynx\source\repos\UnitsConverter\zal\conwerter.sdk\obj\Debug\conwerter.sdk.csprojAssemblyReference.cache
+C:\Users\mateu\source\repos\zal\conwerter.sdk\bin\Debug\conwerter.sdk.dll
+C:\Users\mateu\source\repos\zal\conwerter.sdk\bin\Debug\conwerter.sdk.pdb
+C:\Users\mateu\source\repos\zal\conwerter.sdk\obj\Debug\conwerter.sdk.csprojAssemblyReference.cache
+C:\Users\mateu\source\repos\zal\conwerter.sdk\obj\Debug\conwerter.sdk.csproj.CoreCompileInputs.cache
+C:\Users\mateu\source\repos\zal\conwerter.sdk\obj\Debug\conwerter.sdk.dll
+C:\Users\mateu\source\repos\zal\conwerter.sdk\obj\Debug\conwerter.sdk.pdb
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\conwerter.sdk\bin\Debug\conwerter.sdk.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\conwerter.sdk\bin\Debug\conwerter.sdk.pdb
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\conwerter.sdk\obj\Debug\conwerter.sdk.csprojAssemblyReference.cache
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\conwerter.sdk\obj\Debug\conwerter.sdk.csproj.CoreCompileInputs.cache
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\conwerter.sdk\obj\Debug\conwerter.sdk.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\conwerter.sdk\obj\Debug\conwerter.sdk.pdb

@@ -1,0 +1,21 @@
+﻿@model IEnumerable<zal.Logika.Serwisy.IConverter>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<h1>Konwerter jednostek</h1>
+
+@foreach (zal.Logika.Serwisy.IConverter converter in Model)
+{
+    using (Ajax.BeginForm("Convert",
+        new { converterType = converter.GetType().AssemblyQualifiedName },
+        new AjaxOptions() { UpdateTargetId = converter.Name + "result" }))
+    {
+        <div> @converter.Name </div>
+        @Html.DropDownList("UnitFrom", new SelectList(converter.Units))
+        @Html.TextBox("valueToConvert")
+        @Html.DropDownList("UnitTo", new SelectList(converter.Units))
+        <button type="submit"> Konwertuj </button>
+        <label id="@(converter.Name + "result")"></label>
+    }
+}

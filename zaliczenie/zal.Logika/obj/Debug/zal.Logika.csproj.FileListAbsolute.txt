@@ -1,0 +1,187 @@
+C:\Users\lynx\source\repos\UnitsConverter\zal\zal.Logika\obj\Debug\zal.Logika.csprojAssemblyReference.cache
+C:\Users\lynx\source\repos\UnitsConverter\zal\zal.Logika\bin\Debug\zal.Logika.dll.config
+C:\Users\lynx\source\repos\UnitsConverter\zal\zal.Logika\bin\Debug\zal.Logika.dll
+C:\Users\lynx\source\repos\UnitsConverter\zal\zal.Logika\bin\Debug\zal.Logika.pdb
+C:\Users\lynx\source\repos\UnitsConverter\zal\zal.Logika\bin\Debug\Autofac.dll
+C:\Users\lynx\source\repos\UnitsConverter\zal\zal.Logika\bin\Debug\conwerter.sdk.dll
+C:\Users\lynx\source\repos\UnitsConverter\zal\zal.Logika\bin\Debug\EntityFramework.dll
+C:\Users\lynx\source\repos\UnitsConverter\zal\zal.Logika\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\lynx\source\repos\UnitsConverter\zal\zal.Logika\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\lynx\source\repos\UnitsConverter\zal\zal.Logika\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\lynx\source\repos\UnitsConverter\zal\zal.Logika\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\lynx\source\repos\UnitsConverter\zal\zal.Logika\bin\Debug\Newtonsoft.Json.dll
+C:\Users\lynx\source\repos\UnitsConverter\zal\zal.Logika\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\lynx\source\repos\UnitsConverter\zal\zal.Logika\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\lynx\source\repos\UnitsConverter\zal\zal.Logika\bin\Debug\conwerter.sdk.pdb
+C:\Users\lynx\source\repos\UnitsConverter\zal\zal.Logika\bin\Debug\Autofac.pdb
+C:\Users\lynx\source\repos\UnitsConverter\zal\zal.Logika\bin\Debug\Autofac.xml
+C:\Users\lynx\source\repos\UnitsConverter\zal\zal.Logika\bin\Debug\EntityFramework.xml
+C:\Users\lynx\source\repos\UnitsConverter\zal\zal.Logika\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\lynx\source\repos\UnitsConverter\zal\zal.Logika\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\lynx\source\repos\UnitsConverter\zal\zal.Logika\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\lynx\source\repos\UnitsConverter\zal\zal.Logika\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+C:\Users\lynx\source\repos\UnitsConverter\zal\zal.Logika\bin\Debug\Newtonsoft.Json.xml
+C:\Users\lynx\source\repos\UnitsConverter\zal\zal.Logika\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\lynx\source\repos\UnitsConverter\zal\zal.Logika\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\lynx\source\repos\UnitsConverter\zal\zal.Logika\obj\Debug\zal.Logika.csproj.CopyComplete
+C:\Users\lynx\source\repos\UnitsConverter\zal\zal.Logika\obj\Debug\zal.Logika.dll
+C:\Users\lynx\source\repos\UnitsConverter\zal\zal.Logika\obj\Debug\zal.Logika.pdb
+C:\Users\lynx\source\repos\UnitsConverter\zal\zal.Logika\bin\Debug\Microsoft.Rest.ClientRuntime.Azure.dll
+C:\Users\lynx\source\repos\UnitsConverter\zal\zal.Logika\bin\Debug\Microsoft.Rest.ClientRuntime.dll
+C:\Users\lynx\source\repos\UnitsConverter\zal\zal.Logika\bin\Debug\Microsoft.Rest.ClientRuntime.Azure.xml
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\zal.Logika.dll.config
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\zal.Logika.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\zal.Logika.pdb
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\Autofac.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\conwerter.sdk.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\EntityFramework.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\Microsoft.Rest.ClientRuntime.Azure.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\Microsoft.Rest.ClientRuntime.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\Newtonsoft.Json.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\conwerter.sdk.pdb
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\Autofac.pdb
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\Autofac.xml
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\EntityFramework.xml
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\Microsoft.Rest.ClientRuntime.Azure.xml
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\Newtonsoft.Json.xml
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\mateu\source\repos\zal\zal.Logika\obj\Debug\zal.Logika.csprojAssemblyReference.cache
+C:\Users\mateu\source\repos\zal\zal.Logika\obj\Debug\zal.Logika.csproj.CoreCompileInputs.cache
+C:\Users\mateu\source\repos\zal\zal.Logika\obj\Debug\zal.Logika.csproj.CopyComplete
+C:\Users\mateu\source\repos\zal\zal.Logika\obj\Debug\zal.Logika.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\obj\Debug\zal.Logika.pdb
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\Microsoft.Data.Edm.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\Microsoft.Data.OData.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\Microsoft.Data.Services.Client.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\System.Spatial.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\Microsoft.Data.Edm.xml
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\Microsoft.Data.OData.xml
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\Microsoft.Data.Services.Client.xml
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\Microsoft.Rest.ClientRuntime.xml
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\System.Spatial.xml
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\de\Microsoft.Data.OData.resources.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\es\Microsoft.Data.OData.resources.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\it\Microsoft.Data.OData.resources.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\it\Microsoft.Data.Services.Client.resources.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\ja\Microsoft.Data.Services.Client.resources.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\ko\Microsoft.Data.Services.Client.resources.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\ru\Microsoft.Data.Services.Client.resources.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\de\System.Spatial.resources.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\es\System.Spatial.resources.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\fr\System.Spatial.resources.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\it\System.Spatial.resources.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\ja\System.Spatial.resources.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\ko\System.Spatial.resources.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\ru\System.Spatial.resources.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\zh-Hans\System.Spatial.resources.dll
+C:\Users\mateu\source\repos\zal\zal.Logika\bin\Debug\zh-Hant\System.Spatial.resources.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\zal.Logika.dll.config
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\zal.Logika.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\zal.Logika.pdb
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\Autofac.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\conwerter.sdk.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\EntityFramework.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\Microsoft.Data.Edm.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\Microsoft.Data.OData.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\Microsoft.Data.Services.Client.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\Microsoft.Rest.ClientRuntime.Azure.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\Microsoft.Rest.ClientRuntime.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\Microsoft.WindowsAzure.Storage.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\System.Spatial.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\conwerter.sdk.pdb
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\Autofac.pdb
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\Autofac.xml
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\EntityFramework.xml
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\Microsoft.Data.Edm.xml
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\Microsoft.Data.OData.xml
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\Microsoft.Data.Services.Client.xml
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\Microsoft.Rest.ClientRuntime.xml
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\Microsoft.Rest.ClientRuntime.Azure.xml
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\Microsoft.WindowsAzure.Storage.xml
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\System.Spatial.xml
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\de\Microsoft.Data.OData.resources.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\es\Microsoft.Data.OData.resources.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\it\Microsoft.Data.OData.resources.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\de\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\es\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\fr\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\it\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\ja\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\ko\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\ru\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\de\System.Spatial.resources.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\es\System.Spatial.resources.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\fr\System.Spatial.resources.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\it\System.Spatial.resources.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\ja\System.Spatial.resources.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\ko\System.Spatial.resources.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\ru\System.Spatial.resources.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\zh-Hans\System.Spatial.resources.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\bin\Debug\zh-Hant\System.Spatial.resources.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\obj\Debug\zal.Logika.csprojAssemblyReference.cache
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\obj\Debug\zal.Logika.csproj.CoreCompileInputs.cache
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\obj\Debug\zal.Logika.csproj.CopyComplete
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\obj\Debug\zal.Logika.dll
+C:\Users\Paweł\Downloads\Zaliczzenie JiPP\zal\zal.Logika\obj\Debug\zal.Logika.pdb
