@@ -16,55 +16,27 @@ using System.Diagnostics;
 using System.Windows.Controls.Primitives;
 using System.Data;
 using System.Data.SqlClient;
-
-
-
-/*
-DB Event logging. Events must include:
-- Timestamp
-- Type(info, warning, error, debug, critical)
-- Calculation details(value(int), start(list), end(list), converted(list))
-
-Event:
-- PK
-- Timestamp
-- FK_Type
-- FK_Calculation
-
-Type:
-- PK_Type
-- Level
-
-Calulation:
-- PK_Calculation
-- Value
-- Start_Unit
-- End_Unit
-- Conversion_Result
-
-Type 1 -> 1 Type 
- 1 | 1
-Calculation 
-
-Retrieve from SQL data? - can expand on that? sqlcmd raw queries or in the UI?
-I think retrieve the saved data and display in app, probs gonna have to make a box to display it in.
-Once we get what's going on here we should have no problem implementing the UI for the SQL data.
-
-Yeah nah not worried about the logs just precision. My OCD.
-*/
+using Azure.Storage;
+using System.Reflection;
 
 namespace Zadanie1
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for Window1testxaml.xaml
     /// </summary>
-    
     public partial class MainWindow : Window
     {
-        SqlConnection sql;
+        string converter;
+        string[] currentunits;
+        string[] plugins;
+        private Dictionary<String, Assembly> pluginList = new Dictionary<String, Assembly>();
+     SqlConnection sql;
+        SqlDataAdapter sda;
         string insert_query = "INSERT INTO stats " +
             "(timestamp, from_unit, to_unit, before, after) " +
             "VALUES (@timestamp, @from_unit, @to_unit, @before, @after) ";
+        private static string CmdString = "SELECT * FROM stats";
+        DataTable dt = new DataTable("Stats");
         public MainWindow()
         {
             InitializeComponent();
@@ -75,216 +47,117 @@ namespace Zadanie1
             builder.InitialCatalog = "Przelicznik";
             sql = new SqlConnection(builder.ConnectionString);
             sql.Open();
-        }
+            SqlCommand cmd = new SqlCommand(CmdString, sql);
+            sda = new SqlDataAdapter(cmd);
+            sda.Fill(dt);
+            string path = System.IO.Directory.GetCurrentDirectory() + "\\plugins";
+            try
+            {
+                plugins = System.IO.Directory.GetFiles(path, "*.dll");
+            }
+            catch (Exception)
+            {
 
-        double from;
-        double end;
-        private void Button_Click_temp(object sender, RoutedEventArgs e)
-        {
-            from = double.Parse(Frombox.Text);
-            //if (from_unit.SelectedIndex.Equals(0) && to_unit.SelectedIndex.Equals(1))
-            //{
-            //    double end = TemperatureConverter.CelsiusToFarenheit(from);
-            //    ResultBox.Text = end.ToString();
-            //}
-            //else if (from_unit.SelectedIndex.Equals(1) && to_unit.SelectedIndex.Equals(0))
-            //{
-            //    double end = TemperatureConverter.FarenheitToCelcius(from);
-            //    ResultBox.Text = end.ToString();
-            //}
-            //else if (from_unit.SelectedIndex.Equals(0) && to_unit.SelectedIndex.Equals(2))
-            //{
-            //    double end = TemperatureConverter.CelsiusToKelvin(from);
-            //    ResultBox.Text = end.ToString();
-            //}
-            //else if (from_unit.SelectedIndex.Equals(1) && to_unit.SelectedIndex.Equals(2))
-            //{
-            //    double end = TemperatureConverter.FahrenheitToKelvin(from);
-            //    ResultBox.Text = end.ToString();
-            //}
-            //else if (from_unit.SelectedIndex.Equals(2) && to_unit.SelectedIndex.Equals(0))
-            //{
-            //    double end = TemperatureConverter.KelvinToCelcius(from);
-            //    ResultBox.Text = end.ToString();
-            //}
-            //else if (from_unit.SelectedIndex.Equals(2) && to_unit.SelectedIndex.Equals(1))
-            //{
-            //    double end = TemperatureConverter.KelvinToFarenheit(from);
-            //    ResultBox.Text = end.ToString();
-            //}
-            int back = from_unit.SelectedIndex;
-            int to = to_unit.SelectedIndex;
-            SqlCommand cmd = new SqlCommand(insert_query, sql);
-            switch (back)
+               
+            }
+
+            if (plugins != null)
+            {
+                foreach (string plugin in plugins)
                 {
-                    case 0 when to == 1:
-                        end = TemperatureConverter.CelsiusToFarenheit(from);
-                    cmd.Parameters.Add("@from_unit", SqlDbType.VarChar).Value = "Celsius";
-                    cmd.Parameters.Add("@to_unit", SqlDbType.VarChar).Value = "Fahrenheit";
-                        break;
-                    case 0 when to == 2:
-                        end = TemperatureConverter.CelsiusToKelvin(from);
-                    cmd.Parameters.Add("@from_unit", SqlDbType.VarChar).Value = "Celsius";
-                    cmd.Parameters.Add("@to_unit", SqlDbType.VarChar).Value = "Kelvin";
-                        break;
-
-                    case 1 when to == 0:
-                        end = TemperatureConverter.FarenheitToCelcius(from);
-                    cmd.Parameters.Add("@to_unit", SqlDbType.VarChar).Value = "Celsius";
-                    cmd.Parameters.Add("@from_unit", SqlDbType.VarChar).Value = "Fahrenheit";
-
-                    break;
-
-                    case 1 when to == 2:
-                        end = TemperatureConverter.FahrenheitToKelvin(from);
-                    cmd.Parameters.Add("@from_unit", SqlDbType.VarChar).Value = "Fahrenheit";
-                    cmd.Parameters.Add("@to_unit", SqlDbType.VarChar).Value = "Kelvin";
-
-                    break;
-                    case 2 when to == 0:
-                        end = TemperatureConverter.KelvinToCelcius(from);
-                    cmd.Parameters.Add("@from_unit", SqlDbType.VarChar).Value = "Kelvin";
-                    cmd.Parameters.Add("@to_unit", SqlDbType.VarChar).Value = "Celsius";
-
-                    break;
-                    case 2 when to == 1:
-                        end = TemperatureConverter.KelvinToFarenheit(from);
-                    cmd.Parameters.Add("@from_unit", SqlDbType.VarChar).Value = "Kelvin";
-                    cmd.Parameters.Add("@to_unit", SqlDbType.VarChar).Value = "Fahrenheit";
-                    break;
-                    default:
-                        ResultBox.Text = from.ToString();
-                        break;
+                    var DLL = Assembly.LoadFile(plugin);
+                    foreach (Type type in DLL.GetExportedTypes())
+                    {
+                        string cat = type.GetField("Category").GetValue(null).ToString();
+                        catergoriesCombobox.Items.Add(cat);
+                        pluginList.Add(cat, DLL);
+                    }
                 }
+            }
+            statisticsDataGrid.ItemsSource = dt.DefaultView;
+
+        }
+        private void catergoriesCombobox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            from_unit.Items.Clear();
+            to_unit.Items.Clear();
+            string cat = catergoriesCombobox.SelectedItem.ToString().Trim().Split(':')[1].Trim();
+            converter = cat + "Converter";
+            converter.Trim(' ');
+            if (! (cat == "Temperature" || cat == "Mass" || cat == "Length"))
+            {
+                Assembly plugin = pluginList[cat];
+                Type myType = plugin.GetType(converter);
+                string[] units = myType.GetField("Units").GetValue(null).ToString().Split(',');
+                foreach (string un in units)
+                {
+                    from_unit.Items.Add(un);
+                    from_unit.SelectedIndex = 0;
+                    to_unit.Items.Add(un);
+                    to_unit.SelectedIndex = 1;
+                }
+            }
+            else
+            {
+                Assembly assem = typeof(MainWindow).Assembly;
+                string path = "Converter." + converter;
+                Type myType = assem.GetType(path);
+                string[] units = myType.GetField("units").GetValue(null).ToString().Split(',');
+                Console.WriteLine(units);
+                foreach (string un in units)
+                {
+                    from_unit.Items.Add(un);
+                    from_unit.SelectedIndex = 0;
+                    to_unit.Items.Add(un);
+                    to_unit.SelectedIndex = 1;
+                }
+
+            }
+        }
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            double after;
+            string cat = catergoriesCombobox.SelectedItem.ToString().Split(':')[1].Trim();
+            converter = cat + "Converter";
+            double from = double.Parse(Frombox.Text);
+            string methodname = from_unit.Text + "To" + to_unit.Text.Trim();
+            methodname.Trim(' ');
+            if (!(cat == "Temperature" || cat == "Mass" || cat == "Length")) {
+                Assembly plugin = pluginList[cat];
+                Type myType = plugin.GetType(converter);
+                object obj = Activator.CreateInstance(myType);
+                MethodInfo meth = myType.GetMethod(methodname);
+                after = (double)meth.Invoke(obj, new Object[] { from });
+            }
+            else
+            {
+                Assembly assem = typeof(MainWindow).Assembly;
+                string path = "Converter." + converter;
+                Type myType = assem.GetType(path);
+                object obj = Activator.CreateInstance(myType);
+                MethodInfo meth = myType.GetMethod(methodname);
+                after = (double)meth.Invoke(obj, new Object[] { from });
+            }
             ResultBox.IsEnabled = true;
-            ResultBox.Clear();
-            ResultBox.Text = end.ToString();
+            ResultBox.Text = after.ToString();
+            SqlCommand cmd = new SqlCommand(insert_query, sql);
+            cmd.Parameters.Add("@from_unit", SqlDbType.VarChar).Value = from_unit.Text.Trim();
+            cmd.Parameters.Add("@to_unit", SqlDbType.VarChar).Value = to_unit.Text.Trim();
             cmd.Parameters.Add("@timestamp", SqlDbType.DateTime).Value = DateTime.Now;
             cmd.Parameters.Add("@before", SqlDbType.Real).Value = from;
-            cmd.Parameters.Add("@after", SqlDbType.Real).Value = end;
+            cmd.Parameters.Add("@after", SqlDbType.Real).Value = after;
             cmd.ExecuteNonQuery();
-            }
-
-        private void Fromboxlength_GotKeyboardFocus(object sender, KeyboardFocusChangedEventArgs e)
-        {
-            Fromboxlength.Clear();
-        }
-
-        private void Fromboxlength_LostKeyboardFocus(object sender, KeyboardFocusChangedEventArgs e)
-        {
-            Fromboxlength.Text = "Input";
-        }
-
-        private void MassButton_Click(object sender, RoutedEventArgs e)
-        {
-            double from = double.Parse(Fromboxmass.Text);
-            int back = from_unit_mass.SelectedIndex;
-            int to = to_unit_mass.SelectedIndex;
-            switch (back)
-            {
-                case 1 when to == 1:
-                    end = from;
-                    break;
-                case 1 when to == 2:
-                    end = MassConverter.KgToLb(from);
-                    break;
-                case 1 when to == 3:
-                    end = MassConverter.KgToCarat(from);
-                    break;
-                case 2 when to == 1:
-                    end = MassConverter.LbToKg(from);
-                    break;
-                case 2 when to == 2:
-                    end = from;
-                    break;
-                case 2 when to == 3:
-                    end = MassConverter.LbToCarat(from);
-                    break;
-                case 3 when to == 1:
-                    end = MassConverter.CaratToKg(from);
-                    break;
-                case 3 when to == 2:
-                    end = MassConverter.CaratToLb(from);
-                    break;
-                case 3 when to == 3:
-                    end = from;
-                    break;
-            }
-            ResultBoxmass.IsEnabled = true;
-            ResultBoxmass.Clear();
-            ResultBoxmass.Text = end.ToString();
-        }
-
-        private void Button_Click_len(object sender, RoutedEventArgs e)
-        {
-            from = double.Parse(Fromboxlength.Text);
-            int back = from_unit_len.SelectedIndex;
-            int to = to_unit_len.SelectedIndex;
-            switch (back)
-            {
-                case 1 when to == 1:
-                    end = from;
-                    break;
-                case 1 when to == 2:
-                    end = LenConverter.KmToMi(from);
-                    break;
-                case 1 when to == 3:
-                    end = LenConverter.KmToNat(from);
-                    break;
-                case 2 when to == 1:
-                    end = LenConverter.MiToKm(from);
-                    break;
-                case 2 when to == 2:
-                    end = from;
-                    break;
-                case 2 when to == 3:
-                    end = LenConverter.MiToNat(from);
-                    break;
-                case 3 when to == 1:
-                    end = LenConverter.NatToKm(from);
-                    break;
-                case 3 when to == 2:
-                    end = LenConverter.NatToMi(from);
-                    break;
-                case 3 when to == 3:
-                    end = from;
-                    break;
-            }
-            ResultBoxlength.IsEnabled = true;
-            ResultBoxlength.Clear();
-            ResultBoxlength.Text = end.ToString();
-        }
-
-        private void Fromboxmass_GotKeyboardFocus(object sender, KeyboardFocusChangedEventArgs e)
-        {
-            Fromboxmass.Clear();
+            SqlCommand sdaupdate = new SqlCommand(CmdString, sql);
+            statisticsDataGrid.Items.Refresh();
+            
         }
 
         private void Frombox_GotKeyboardFocus(object sender, KeyboardFocusChangedEventArgs e)
         {
-            Frombox.Clear();
-        }
-
-        private void Frombox_LostKeyboardFocus(object sender, KeyboardFocusChangedEventArgs e)
-        {
-            Frombox.Text = "Input";
-        }
-
-        private void Fromboxmass_LostKeyboardFocus(object sender, KeyboardFocusChangedEventArgs e)
-        {
-            Frombox.Text = "Input";
-        }
-
-        private void SQLButton_Click(object sender, RoutedEventArgs e)
-        {
-            string CmdString = "SELECT * FROM stats";
-            SqlCommand cmd = new SqlCommand(CmdString, sql);
-            SqlDataAdapter sda = new SqlDataAdapter(cmd);
-            DataTable dt = new DataTable("Stats");
-            sda.Fill(dt);
-            SQLGrid.ItemsSource = dt.DefaultView;
-            
+            if (Frombox.Text == "Input")
+            {
+                Frombox.Clear();
+            }
         }
     }
 }
-

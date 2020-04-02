@@ -48,17 +48,19 @@ class Converter(value, start, end):
         ...
 */
 
-namespace Zadanie1
+namespace Converter
 {
     class TemperatureConverter
     {
-        public static double FarenheitToCelcius(double start)
+        public static string units = "Celsius, Fahrenheit, Kelvin";
+        //public static string[] Units => units;
+        public static double FahrenheitToCelcius(double start)
         {
             Console.WriteLine("getting somewhere " + start);
             double end = (start - 32) / 1.8;
             return end;
         }
-        public static double CelsiusToFarenheit(double start)
+        public static double CelsiusToFahrenheit(double start)
         {
             double end = start * 1.8F + 32;
             return end;
@@ -78,61 +80,63 @@ namespace Zadanie1
             double end = (start + 459.67) * (5.00/9.00);
             return end;
         }
-        public static double KelvinToFarenheit(double start)
+        public static double KelvinToFahrenheit(double start)
         {
             return (start * (9 / 5)) - 459.67;
         }
     }
     class MassConverter
     {
-        public static double KgToLb(double start)
+        public static string units =  "Kilograms, Pounds, Carats";
+        public static double KilogramsToPounds(double start)
         {
             return start * 2.2046;
         }
-        public static double KgToCarat(double start)
+        public static double KilogramsToCarat(double start)
         {
             return start / 5000;
         }
-        public static double LbToKg(double start)
+        public static double PoundsToKilograms(double start)
         {
             return start * 0.45359237;
         }
-        public static double LbToCarat(double start)
+        public static double PoundsToCarat(double start)
         {
             return start / 2267.96185;
         }
-        public static double CaratToKg(double start)
+        public static double CaratToKilograms(double start)
         {
             return start * 0.0002;
         }
-        public static double CaratToLb(double start)
+        public static double CaratToPounds(double start)
         {
             return start * 0.00053584577614;
         }
     }
-    class LenConverter
+    class LengthConverter
     {
-        public static double KmToMi(double start)
+        public static string units =  "Kilometers, Miles, NautMiles";
+        public static double KilometersToMiles(double start)
         {
             return start * 0.621371192;
         }
-        public static double KmToNat(double start)
+        public static double KilometersToNautMiles(double start)
         {
             return start * 0.539956803;
         }
-        public static double MiToKm(double start)
+        public static double MilesToKilometers(double start)
         {
             return start * 1.609344;
         }
-        public static double MiToNat(double start)
+        public static double MilesToNautMiles(double start)
         {
             return start * 0.868976242;
         }
-        public static double NatToKm(double start)
+        public static double NautMilesToKilometers(double start)
         {
             return start * 1.85200;
         }
-        public static double NatToMi(double start)
+        public static double NautMilesToMiles(double start)
         {
             return start * 1.15077945;
         }
@@ -147,7 +151,7 @@ namespace Zadanie1
             // new converter instance
             TemperatureConverter converter = new TemperatureConverter();
 
-            converter.FarenheitToCelcius(123);
+            converter.FahrenheitToCelcius(123);
         }
     }
    */
@@ -155,7 +159,7 @@ namespace Zadanie1
 /*
         public double ConvertTemperature(int value, List<String> start_unit, List<String> end_unit) {
         if (string.Compare(this.start_unit,"F") and (end_unit = "C"); { this.FahrenheitToCelcius(value) };
-        if (start_unit = "C") and (end_unit = "F"); { this.CelsiusToFarenheit(value) };
+        if (start_unit = "C") and (end_unit = "F"); { this.CelsiusToFahrenheit(value) };
         if (start_unit = "C") and (end_unit = "K"); { this.CelsiusToKelvin(value) };
         if (start_unit = "K") and (end_unit = "C"); { this.KelvinToCelsius(value) };
         if (start_unit = "F") and (end_unit = "K"); { this.FahrenheitToKelvin(value)};
@@ -170,7 +174,7 @@ namespace Zadanie1
             double end = (start - 32) / 1.8F;
             return end;
         }
-        public double CelsiusToFarenheit (double start)
+        public double CelsiusToFahrenheit (double start)
         {
             double end = start * 1.8F + 32;
             return end;
@@ -190,7 +194,7 @@ namespace Zadanie1
             double end = (start + 459.67F) * (5 / 9);
             return end;
         }
-        public double KelvinToFarenheit (double start)
+        public double KelvinToFahrenheit (double start)
         {
             double end = (start * (9 / 5)) - 459.67F;
             return end;
