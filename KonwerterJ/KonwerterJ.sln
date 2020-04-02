@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KonwerterJ", "KonwerterJ\KonwerterJ.csproj", "{7B318D3A-1B02-44F0-8103-D90677CD6DD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Converter.SDK", "Converter.SDK\Converter.SDK.csproj", "{10B9DF98-6694-4FD3-9341-A8A9955C353C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KonwerterJ.Logic", "KonwerterJ.Logic\KonwerterJ.Logic.csproj", "{EDA4F6D8-D9B3-473D-95F3-60E97E8D9476}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KonwerterJ.Web", "KonwerterJ.Web\KonwerterJ.Web.csproj", "{F914FE02-EFB3-4CEC-A987-573C976FED02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B318D3A-1B02-44F0-8103-D90677CD6DD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B318D3A-1B02-44F0-8103-D90677CD6DD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B318D3A-1B02-44F0-8103-D90677CD6DD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B318D3A-1B02-44F0-8103-D90677CD6DD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10B9DF98-6694-4FD3-9341-A8A9955C353C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10B9DF98-6694-4FD3-9341-A8A9955C353C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10B9DF98-6694-4FD3-9341-A8A9955C353C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10B9DF98-6694-4FD3-9341-A8A9955C353C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDA4F6D8-D9B3-473D-95F3-60E97E8D9476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDA4F6D8-D9B3-473D-95F3-60E97E8D9476}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDA4F6D8-D9B3-473D-95F3-60E97E8D9476}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDA4F6D8-D9B3-473D-95F3-60E97E8D9476}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F914FE02-EFB3-4CEC-A987-573C976FED02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F914FE02-EFB3-4CEC-A987-573C976FED02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F914FE02-EFB3-4CEC-A987-573C976FED02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F914FE02-EFB3-4CEC-A987-573C976FED02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5033A14-B4FA-496B-8715-2376DBE389AD}
+	EndGlobalSection
+EndGlobal

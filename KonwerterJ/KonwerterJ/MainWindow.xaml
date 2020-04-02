@@ -1,0 +1,33 @@
+﻿<Window x:Class="KonwerterJ.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+       
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Przelicz" Content="Oblicz" HorizontalAlignment="Left" Margin="655,55,0,0" VerticalAlignment="Top" Width="75" Click="Przelicz_Click"/>
+        <ComboBox x:Name="Przedkonwersja" HorizontalAlignment="Left" Margin="30,55,0,0" VerticalAlignment="Top" Width="120" />
+        <ComboBox x:Name="PoKonwersja" HorizontalAlignment="Left" Margin="355,56,0,0" VerticalAlignment="Top" Width="120" />
+        <TextBlock x:Name="Wynik" HorizontalAlignment="Left" Margin="510,57,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBox x:Name="Liczba" HorizontalAlignment="Left" Height="23" Margin="200,56,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <DataGrid x:Name="SiatkaStatystyk" HorizontalAlignment="Left" Height="289" VerticalAlignment="Top" Width="749" Margin="21,101,0,0" RenderTransformOrigin="0.5,0.5">
+            <DataGrid.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.284"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </DataGrid.RenderTransform>
+        </DataGrid>
+        <ComboBox x:Name="Miara" HorizontalAlignment="Left" Margin="30,10,0,0" VerticalAlignment="Top" Width="710" SelectionChanged="Miara_SelectionChanged">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Name}"/>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+    </Grid>
+</Window>

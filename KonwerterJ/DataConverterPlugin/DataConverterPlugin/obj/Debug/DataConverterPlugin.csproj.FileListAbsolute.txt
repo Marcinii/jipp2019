@@ -1,0 +1,12 @@
+C:\Users\danra\source\repos\DataConverterPlugin\DataConverterPlugin\bin\Debug\DataConverterPlugin.dll
+C:\Users\danra\source\repos\DataConverterPlugin\DataConverterPlugin\bin\Debug\DataConverterPlugin.pdb
+C:\Users\danra\source\repos\DataConverterPlugin\DataConverterPlugin\obj\Debug\DataConverterPlugin.csprojAssemblyReference.cache
+C:\Users\danra\source\repos\DataConverterPlugin\DataConverterPlugin\obj\Debug\DataConverterPlugin.csproj.CopyComplete
+C:\Users\danra\source\repos\DataConverterPlugin\DataConverterPlugin\obj\Debug\DataConverterPlugin.dll
+C:\Users\danra\source\repos\DataConverterPlugin\DataConverterPlugin\obj\Debug\DataConverterPlugin.pdb
+C:\Users\danra\source\repos\KonwerterJ\DataConverterPlugin\DataConverterPlugin\bin\Debug\DataConverterPlugin.dll
+C:\Users\danra\source\repos\KonwerterJ\DataConverterPlugin\DataConverterPlugin\bin\Debug\DataConverterPlugin.pdb
+C:\Users\danra\source\repos\KonwerterJ\DataConverterPlugin\DataConverterPlugin\obj\Debug\DataConverterPlugin.csprojAssemblyReference.cache
+C:\Users\danra\source\repos\KonwerterJ\DataConverterPlugin\DataConverterPlugin\obj\Debug\DataConverterPlugin.csproj.CopyComplete
+C:\Users\danra\source\repos\KonwerterJ\DataConverterPlugin\DataConverterPlugin\obj\Debug\DataConverterPlugin.dll
+C:\Users\danra\source\repos\KonwerterJ\DataConverterPlugin\DataConverterPlugin\obj\Debug\DataConverterPlugin.pdb
