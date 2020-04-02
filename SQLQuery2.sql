@@ -1,1 +1,0 @@
-GRANT CONTROL ON stats TO testuser;
